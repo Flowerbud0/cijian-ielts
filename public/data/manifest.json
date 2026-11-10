@@ -1,0 +1,17 @@
+{
+  "generated": "2026-11-10",
+  "referenceRows": 3632,
+  "uniqueHeadwords": 3592,
+  "dictionaryMatches": 3591,
+  "independentDefinitions": 1,
+  "chapters": 22,
+  "sources": {
+    "headwordChapterReference": "https://github.com/LynnShaw/vocabulary_for_ielts/blob/main/word_list.csv",
+    "dictionary": "https://github.com/skywind3000/ECDICT"
+  },
+  "sha256": {
+    "chapter-headwords-reference.csv": "b67cc4b77657bdd2b08576aec35dce05027b9762ae7e03a33fc040e3ecde7c58",
+    "ecdict.csv": "d1ecbdf9ee2b920afb6f430ca6b6bb9f559588cf0dff86e04bd255f9390843cc"
+  },
+  "note": "仅提取参考表词目及章节编号；释义、音标、词形取自 ECDICT，不复制参考表中文释义。章节与纸质版本未逐项核验，不是官方授权电子书。例句及逐词解释覆盖情况见站内统计。"
+}
