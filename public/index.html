@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+ <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light dark">
+ <meta name="description" content="词间：按章节学习雅思词汇，在例句语境中理解单词。"><title>词间 · IELTS</title>
+ <link rel="stylesheet" href="./style.css"><link rel="stylesheet" href="./app.css">
+</head>
+<body>
+ <div id="lexi-preview"><div class="lp-device"><div class="lp-app">
+  <header class="lp-header"><a class="lp-brand" href="#home"><span class="lp-logo" aria-hidden="true">词</span>词间 <small>IELTS</small></a><nav aria-label="主导航"><a href="#home">章节词库</a><a href="#saved">生词本</a><a href="#stats">学习记录</a><a href="#settings">设置与备份</a></nav><button id="account" class="lp-button">登录同步</button></header>
+  <div class="statusbar"><span id="sync-status" role="status">访客模式 · 记录仅存本机</span><button id="sync-now" class="lp-link" hidden>立即同步</button><span id="wordbook-status" class="lp-muted">章节词库加载中</span></div>
+  <main class="lp-main" id="app"><p>正在加载词库…</p></main>
+  <footer class="lp-footer"><span>把单词放进语境 · 按自己的节奏学习</span><span>试用版 0.2 · <a href="./sources.html">词库来源与覆盖情况</a></span></footer>
+ </div></div><div id="toast" role="status" aria-live="polite" hidden></div>
+ <dialog id="account-dialog" aria-labelledby="account-title"><form method="dialog"><button class="lp-iconbutton close-dialog" aria-label="关闭登录窗口">×</button></form><h2 id="account-title">登录与跨设备同步</h2><div id="account-content"></div></dialog>
+ <dialog id="lookup-dialog" aria-labelledby="lookup-title"><form method="dialog"><button class="lp-iconbutton close-dialog" aria-label="关闭词义">×</button></form><div id="lookup-content"></div></dialog>
+ </div>
+ <noscript>词间需要启用 JavaScript 才能保存学习记录和运行复习功能。</noscript>
+ <script type="module" src="./app.js"></script>
+</body>
+</html>
